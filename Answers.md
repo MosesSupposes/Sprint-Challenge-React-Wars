@@ -6,7 +6,9 @@
 
 Thinking in React means to think of your UI in terms of individual components, or objects. These components are broken out into separate modules based on the visual design of your application.
 
-1. Describe state.
+2. Describe state.
+
+State is the data that powers your application.
 
 1. Describe props.
 
