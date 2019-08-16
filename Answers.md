@@ -14,4 +14,6 @@ State is the data that powers your application.
 
 Props are the vehichle by which you carry the data throughout your app
 
-1. What are side effects, and how do you sync effects in a React component to state or prop changes?
+4. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is any application state change that is observable outside the called function other than its return value. Things like manipulating the DOM, fetching data from an API, and modifying external (to the function) variables or object properties are all examples of side effects.
