@@ -19,8 +19,6 @@ const Details = styled.ul`
 ` 
 
 export default function CharacterCard(props) {
-   
-    
     return (
         <Wrapper>
             <Header>{props.name}</Header>
@@ -33,11 +31,5 @@ export default function CharacterCard(props) {
                 <li>{`Birth year: ${props.birthYear}`}</li>
             </Details>
         </Wrapper>
-        
-        // <Card
-        //     header={props.name}
-        //     meta={props.height + "\""}
-        //     description={description}
-        // />
     )
 }
