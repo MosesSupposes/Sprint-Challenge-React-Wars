@@ -10,6 +10,8 @@ Thinking in React means to think of your UI in terms of individual components, o
 
 State is the data that powers your application.
 
-1. Describe props.
+3. Describe props.
+
+Props are the vehichle by which you carry the data throughout your app
 
 1. What are side effects, and how do you sync effects in a React component to state or prop changes?
