@@ -4,8 +4,16 @@
 
 1. What does it mean to think in react?
 
-1. Describe state.
+Thinking in React means to think of your UI in terms of individual components, or objects. These components are broken out into separate modules based on the visual design of your application.
 
-1. Describe props.
+2. Describe state.
 
-1. What are side effects, and how do you sync effects in a React component to state or prop changes?
+State is the data that powers your application.
+
+3. Describe props.
+
+Props are the vehichle by which you carry the data throughout your app
+
+4. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is any application state change that is observable outside the called function other than its return value. Things like manipulating the DOM, fetching data from an API, and modifying external (to the function) variables or object properties are all examples of side effects.
